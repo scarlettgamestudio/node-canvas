@@ -1,5 +1,5 @@
 {
-  "name": "canvas",
+  "name": "@scarlett-game-studio/canvas",
   "description": "Canvas graphics API backed by Cairo",
   "version": "2.3.1",
   "author": "TJ Holowaychuk <tj@learnboost.com>",
@@ -20,8 +20,8 @@
     "images",
     "pdf"
   ],
-  "homepage": "https://github.com/Automattic/node-canvas",
-  "repository": "git://github.com/Automattic/node-canvas.git",
+  "homepage": "https://github.com/scarlettgamestudio/node-canvas",
+  "repository": "git://github.com/scarlettgamestudio/node-canvas.git",
   "scripts": {
     "prebenchmark": "node-gyp build",
     "benchmark": "node benchmarks/run.js",
@@ -34,7 +34,7 @@
   "binary": {
     "module_name": "canvas",
     "module_path": "build/Release",
-    "host": "https://github.com/node-gfx/node-canvas-prebuilt/releases/download/",
+    "host": "https://github.com/scarlettgamestudio/node-canvas-prebuilt/releases/download/",
     "remote_path": "v{version}",
     "package_name": "{module_name}-v{version}-{node_abi}-{platform}-{libc}-{arch}.tar.gz"
   },
